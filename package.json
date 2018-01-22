@@ -1,0 +1,31 @@
+{
+  "name": "yarn-programmatic",
+  "version": "0.0.1",
+  "description": "Programmatic API wrapper for Yarn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristanMatthias/yarn-programmatic.git"
+  },
+  "keywords": [
+    "yarn",
+    "api",
+    "programmatic"
+  ],
+  "author": "Tristan Matthias <hello@tristanmatthias.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tristanMatthias/yarn-programmatic/issues"
+  },
+  "homepage": "https://github.com/tristanMatthias/yarn-programmatic#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  },
+  "dependencies": {
+    "child-process-promise": "^2.2.1",
+    "colors": "^1.1.2"
+  }
+}
