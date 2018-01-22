@@ -1,6 +1,6 @@
 {
   "name": "yarn-programmatic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Programmatic API wrapper for Yarn",
   "main": "index.js",
   "scripts": {
