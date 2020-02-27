@@ -11,34 +11,48 @@ Every function returns a Promise.
 
 ---
 
-### Install packages
+### `yarn.add()`
 
 ```js
 yarn.add(['babel', 'react'], {dev: true});
 ```
 
 #### Arguments
-| name | type | value |
-| -----|------|-------|
-| packages | Array | List of packages to install
-| options | Object | Options object (see below)
+| name     | type   | value                       |
+| -------- | ------ | --------------------------- |
+| packages | Array  | List of packages to install |
+| options  | Object | Options object (see below)  |
 
 
 #### Options
-| name | type | default | value |
-| -----|------|---------|-------|
-| dev | Boolean | false | Save to dependencies
+| name | type    | default | value                |
+| ---- | ------- | ------- | -------------------- |
+| dev  | Boolean | false   | Save to dependencies |
 
 
 ---
 
-### Remove packages
+### `yarn.remove()`
 
 ```js
 yarn.remove(['babel', 'react']);
 ```
 
 #### Arguments
-| name | type | value |
-| -----|------|-------|
-| packages | Array | List of packages to remove
+| name     | type  | value                      |
+| -------- | ----- | -------------------------- |
+| packages | Array | List of packages to remove |
+
+---
+
+### `yarn.info()`
+
+```js
+yarn.info(); // Get info on current package
+yarn.info('react'); // Get info on 'react' package
+```
+
+#### Arguments
+| name    | type   | value                               |
+| ------- | ------ | ----------------------------------- |
+| package | string | Optional package to lookup info for |
