@@ -25,9 +25,9 @@ yarn.add(['babel', 'react'], {dev: true});
 
 
 #### Options
-| name | type    | default | value                |
-| ---- | ------- | ------- | -------------------- |
-| dev  | Boolean | false   | Save to dependencies |
+| name | type    | default | value                   |
+| ---- | ------- | ------- | ----------------------- |
+| dev  | Boolean | false   | Save to devDependencies |
 
 
 ---
